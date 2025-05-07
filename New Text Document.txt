@@ -1,0 +1,7 @@
+all packges installed:
+1. transformer
+2. pandas 
+3. peft
+4. dataset
+5. torch
+6. openpyxl
