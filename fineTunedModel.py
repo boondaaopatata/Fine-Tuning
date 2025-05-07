@@ -42,9 +42,6 @@ def Create_Queue():
 
     return Q_list
 
-
-
-
 tok2 = AutoTokenizer.from_pretrained("./ft")
 tok2.pad_token = tok2.eos_token
 m2 = AutoModelForCausalLM.from_pretrained("./ft")
